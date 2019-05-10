@@ -7849,7 +7849,7 @@ section {
 section#editors-pick {
   margin-top: 87px;
   text-align: center;
-  background: url("../img/editors-pick/BG_editors-pick.jpg") no-repeat center center;
+  background: url("./img/editors-pick/BG_editors-pick.jpg") no-repeat center center;
   background-size: cover; }
   section#editors-pick h1 {
     color: #fff; }
