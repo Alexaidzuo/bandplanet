@@ -1,0 +1,696 @@
+<!doctype html>
+<html class="no-js" lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+    <title>Band Planet</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="icon.jpg">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="main.min.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg col-fluid fixed-top nav-down">
+            <a class="navbar-brand logo" href="#">
+                <img src="img/logo.png" alt="Brand Planet">
+                <p><span>band</span>planet</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex ">
+                    <li class="nav-item-active"><a class="nav-link" href="#">Music</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Brands</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">People</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Market</a></li>
+                    <li class="nav-item dropdown dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="#">Learning</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Search -->
+                <div class="col-md-3 col-sm-12 ml-auto search">
+                    <div id="custom-search-input">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input class="search-query form-control" placeholder="Search" type="text">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class="fal fa-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Notification -->
+                <div class="col-auto ml-auto d-flex align-items-center" id="nav_social">
+                    <div class="row">
+                        <div class="col-auto social-icon">
+                            <i class="fas fa-envelope"><span class="badge badge-primary badge-messages">7</span></i>
+                        </div>
+                        <div class="col-auto social-icon">
+                            <i class="fas fa-bell"><span class="badge badge-primary badge-notification">2</span></i>
+                        </div>
+                        <div class="col-auto social-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="col-auto avatar">
+                            <img src="img/profi_pic-small.jpg" alt="Profile picture">
+                        </div>
+                        <!-- Language -->
+                        <div class="col-auto d-flex align-items-center" id="language">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img src="img/flags/gb.svg" alt="United Kingdom"></span>EN
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-left text-left language">
+                                <a class="dropdown-item" href="#fr"><img src="img/flags/de.svg" alt="United Kingdom">DE</a>
+                                <a class="dropdown-item" href="#it"><img src="img/flags/rs.svg" alt="United Kingdom">RS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="editors-pick">
+        <div class="container">
+            <h1>Editor's pick</h1>
+            <div class="pick-filter-editor">
+                <span class="pick-filter--active"><a href="#" class="all">Songs</a></span>
+                <span><a href="#" class="albums">Albums</a></span>
+                <span><a href="#" class="playlist">Playlist</a></span>
+            </div>
+            <div class="editors-box" id="pick-filter-editor-wrapper">
+                <div id="editors-box-item" class="albums">
+                    <div class="editors-box--image">
+                        <img src="img/editors-pick/editorsPick2-1.jpg" alt="American Froggs">
+                        <i class="fal fa-play-circle"></i>
+                        <div class="music-genre">
+                            <span>Jazz</span>
+                            <span>Chilout</span>
+                            <span>Metal</span>
+                        </div>
+                    </div>
+                    <p>Saga Forest</p>
+                    <h3>Your Love hurts</h3>
+                    <i class="fal fa-stopwatch">2.53</i>
+                    <i class="fal fa-play">758</i>
+                    <i class="fal fa-heart">17</i>
+                </div>
+                <div id="editors-box-item" class="playlist">
+                    <div class="editors-box--image">
+                        <img src="img/editors-pick/editorsPick3-1.jpg" alt="American Froggs">
+                        <i class="fal fa-play-circle"></i>
+                        <div class="music-genre">
+                            <span>Jazz</span>
+                            <span>Chilout</span>
+                            <span>Metal</span>
+                        </div>
+                    </div>
+                    <p>Ian McAlister</p>
+                    <h3>Monday night</h3>
+                    <i class="fal fa-stopwatch">2.53</i>
+                    <i class="fal fa-play">758</i>
+                    <i class="fal fa-heart">17</i>
+                </div>
+                <div id="editors-box-item" class="albums">
+                    <div class="editors-box--image">
+                        <img src="img/editors-pick/editorsPick1.jpg" alt="American Froggs">
+                        <i class="fal fa-play-circle"></i>
+                        <div class="music-genre">
+                            <span>Jazz</span>
+                            <span>Chilout</span>
+                            <span>Metal</span>
+                        </div>
+                    </div>
+                    <p>American Froggs</p>
+                    <h3>South Rabels</h3>
+                    <i class="fal fa-stopwatch">2.53</i>
+                    <i class="fal fa-play">758</i>
+                    <i class="fal fa-calendar">2017</i>
+                </div>
+                <div id="editors-box-item" class="albums">
+                    <div class="editors-box--image">
+                        <img src="img/editors-pick/editorsPick2.jpg" alt="American Froggs">
+                        <i class="fal fa-play-circle"></i>
+                        <div class="music-genre">
+                            <span>Jazz</span>
+                            <span>Chilout</span>
+                            <span>Metal</span>
+                        </div>
+                    </div>
+                    <p>Saga Forest</p>
+                    <h3>Your Love hurts</h3>
+                    <i class="fal fa-stopwatch">2.53</i>
+                    <i class="fal fa-play">758</i>
+                    <i class="fal fa-heart">17</i>
+                </div>
+                <div id="editors-box-item" class="playlist">
+                    <div class="editors-box--image">
+                        <img src="img/editors-pick/editorsPick3.jpg" alt="American Froggs">
+                        <i class="fal fa-play-circle"></i>
+                        <div class="music-genre">
+                            <span>Jazz</span>
+                            <span>Chilout</span>
+                            <span>Metal</span>
+                        </div>
+                    </div>
+                    <p>Ian McAliste</p>
+                    <h3>Saturday night</h3>
+                    <i class="fal fa-stopwatch">2.53</i>
+                    <i class="fal fa-play">758</i>
+                    <i class="fal fa-heart">17</i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="create-your-own">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 create-your-own-banner">
+                    <div>
+                        <h2>Create your Own</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 create-your-own-albums">
+                    <img src="img/create-your-own/albums.jpg" alt="Album icon">
+                    <h2>Albums</h2>
+                    <p>Create your Album and be discovered by your fans</p>
+                    <button><a href="#">Create Album</a></button>
+                </div>
+                <div class="col-lg-3 create-your-own-playlists">
+                    <img src="img/create-your-own/playlists.jpg" alt="Playlist icon">
+                    <h2>Playlists</h2>
+                    <p>Make your Playlists and share your music with others</p>
+                    <button><a href="#">Make Playlist</a></button>
+                </div>
+                <div class="col-lg-3 create-your-own-songs">
+                    <img src="img/create-your-own/songs.jpg" alt="Songs icon">
+                    <h2>Songs</h2>
+                    <p>Upload song and share it with Bandplanet family</p>
+                    <button><a href="#">Upload Song</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="most-popular">
+        <div class="container">
+            <h1>Most Popular</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-sm-6">
+                    <div class="most-popular-songs">
+                        <div class="most-popular-title">
+                            <h5>Songs</h5>
+                        </div>
+                        <a href="#">View All</a>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs1.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs2.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs3.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover song-active">
+                                <img src="img/most-popular/songs4.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info ">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-4 most-popular-cover">
+                                <img src="img/most-popular/songs5.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="most-popular-albums">
+                        <div class="most-popular-title">
+                            <h5>Albums</h5>
+                        </div>
+                        <a href="#">View All</a>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs1.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs2.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs3.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs4.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs5.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="most-popular-playlists">
+                        <div class="most-popular-title">
+                            <h5>Playlists</h5>
+                        </div>
+                        <a href="#">View All</a>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs1.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs2.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs3.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs4.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                        <div class="most-popular-list">
+                            <div class="col-md-3 most-popular-cover">
+                                <img src="img/most-popular/songs5.jpg" alt="Most popular song">
+                            </div>
+                            <div class="col-md-9 song-info">
+                                <p>DJ Quatern</p>
+                                <h6>Bad and Boujee</h6>
+                                <i class="fal fa-stopwatch">2.53</i>
+                                <i class="fal fa-play">17</i>
+                                <i class="fal fa-heart">17</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="latest">
+        <div class="container">
+            <h1>Latest</h1>
+            <div class="pick-filter-latest">
+                <span class="pick-filter--active"><a href="#" class="all">Songs</a></span>
+                <span><a href="#" class="albums">Albums</a></span>
+                <span><a href="#" class="playlist">Playlist</a></span>
+            </div>
+            <div class="row" id="pick-filter-latest-wrapper">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song albums">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest1.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song playlist">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest2.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song albums">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest3.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song albums">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest4.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song playlist">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest5.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song albums">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest6.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song playlist">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest7.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song albums">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest8.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song playlist">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest9.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song playlist">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest10.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song playlist">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest11.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 latest-song playlist">
+                    <div class="latest-song-cover">
+                        <div class="latest-song-cover--image">
+                            <img src="img/latest/latest12.jpg" alt="Latest song cover">
+                            <i class="fal fa-play">43</i>
+                            <i class="fal fa-heart">122</i>
+                            <i class="fal fa-stopwatch">2.53</i>
+                        </div>
+                    </div>
+                    <p>DJ Quatern</p>
+                    <h6>Bad and Boujee</h6>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="#" class="pag-box">PREVIOUS</a>
+                <a href="#" class="pag-box">1</a>
+                <a href="#" class="pag-box">2</a>
+                <a href="#" class="pag-box active">3</a>
+                <a href="#" class="pag-box">4</a>
+                <a href="#" class="pag-box">5</a>
+                <div class="pag-box disable"><span>...</span></div>
+                <a href="#" class="pag-box">10</a>
+                <a href="#" class="pag-box">NEXT</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-to">
+        <div class="container">
+            <h2>How to</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 how-to-box">
+                    <div class="how-to-box-item">
+                        <div class="how-to-box-cover-image">
+                            <a href="#"><img src="img/how-to/general-faqs1.jpg" alt="General FAQs"></a>
+                        </div>
+                        <div class="how-to-box-content">
+                            <a href="#">
+                                <h4>General FAQ's</h4>
+                            </a>
+                            <p><span>Category</span></p>
+                            <p>12 Nov 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 how-to-box">
+                    <div class="how-to-box-item">
+                        <div class="how-to-box-cover-image">
+                            <a href="#"><img src="img/how-to/general-faqs2.jpg" alt="General FAQs"></a>
+                        </div>
+                        <div class="how-to-box-content">
+                            <a href="#">
+                                <h4>General FAQ's</h4>
+                            </a>
+                            <p><span>Category</span></p>
+                            <p>12 Nov 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 how-to-box">
+                    <div class="how-to-box-item">
+                        <div class="how-to-box-cover-image">
+                            <a href="#"><img src="img/how-to/general-faqs3.jpg" alt="General FAQs"></a>
+                        </div>
+                        <div class="how-to-box-content">
+                            <a href="#">
+                                <h4>General FAQ's</h4>
+                            </a>
+                            <p><span>Category</span></p>
+                            <p>12 Nov 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 how-to-box">
+                    <div class="how-to-box-item">
+                        <div class="how-to-box-cover-image">
+                            <a href="#"><img src="img/how-to/general-faqs4.jpg" alt="General FAQs"></a>
+                        </div>
+                        <div class="how-to-box-content">
+                            <a href="#">
+                                <h4>General FAQ's</h4>
+                            </a>
+                            <p><span>Category</span></p>
+                            <p>12 Nov 2016</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-auto mr-auto footer-logo">
+                    <img src="img/logo.png" alt="Band Planet">
+                    <p><span>band</span>planet</p>
+                </div>
+                <div class="col-sm-auto footer-social">
+                    <a href="#">FEEDBACK</a>
+                    <a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="col-sm-auto footer-links">
+                    <ul>
+                        <li class="footer-nav"><a href="#1">About</a></li>
+                        <li class="footer-nav"><a href="#2">Privacy Policy</a></li>
+                        <li class="footer-nav disable1"><a href="#3">Term & Conditions</a></li>
+                        <li class="footer-nav disable2">
+                            <p>BandPlanet &#169; 2017</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/slick.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

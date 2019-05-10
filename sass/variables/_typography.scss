@@ -1,0 +1,27 @@
+// Globar Variables
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima-Nova-Regular'), local('Proxima-Nova-Bold'), local('Proxima-Nova-Italic');
+}
+
+$font__globalSize: 62.5%; // font-size: 10px is equal to 1em;
+
+$base__fontFamily: 'Proxima Nova', sans-serif;
+$base__fontSize: 1.8em;
+$base__fontWeight: 400;
+$base__fontWeight-bold: 700;
+$base__lineHeight: 2.197em;
+
+$base__fontColor: #333333;
+$base__fontColor-green: #b8dc1e;
+
+$h1__fontSize: 3.5em;
+$h2__fontSize: 3em;
+$h3__fontSize: 2.5em;
+$h4__fontSize: 2em;
+$h5__fontSize: 1.5em;
+// Most popular song title
+$h6__fontSize: 1.6em;
+
+// Font awesome path
+$fa-font-path: "font/font-awesome-pro/webfonts";
